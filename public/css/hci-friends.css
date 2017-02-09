@@ -14,6 +14,17 @@ h1, h2, h3, h4, h5 {
 }
 
 .friend {
-    max-width: 400px;
-    margin: 10px auto 10px auto;
+    max-width: 600px;
+    margin: 15px auto 15px auto;
+    padding: 10px 120px 10px 120px;
+    border: solid rgba(20,20,20,0.3) 1px;
+    border-radius: 10px;
+}
+
+.friend:hover {
+    box-shadow: 2px 2px 7px gray;
+}
+
+.friend img {
+    margin: 0 auto 0 auto;
 }
